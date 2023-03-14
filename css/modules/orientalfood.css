@@ -1,0 +1,32 @@
+.orientalfood{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.orientalfood h1{
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.orientalfood p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    width: 280px;
+    margin-right: 10px;
+    line-height: 25.6px;
+}
+.btn-menu{
+    
+    border: 3px solid green;
+    margin-top: 26px;
+    padding: 0;
+    border: 0;
+    width: 286px;
+    height: 40px;
+    background-color: #DA2535;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+}

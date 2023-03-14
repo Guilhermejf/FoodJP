@@ -1,0 +1,38 @@
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+}
+.black{
+    color: #292929;
+}
+.red{
+    color: #DA2535;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 24px 57px 24px;
+}
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.line0{
+    width: 18px;
+    height: 2px;
+    background-color: #292929;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+.line1{
+    width: 14px;
+    height: 2px;
+    background-color: #292929;
+    border-radius: 5px;
+}

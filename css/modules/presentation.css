@@ -1,0 +1,37 @@
+.presentation{
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.presentation img{
+    width: 286px;
+    margin-left: 24px;
+}
+
+.presentation h3{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+
+.presentation p{
+    width: 290px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+.presentation a{
+   display: flex;
+   font-family: 'inter', sans-serif;
+   justify-content: center;
+   color: #DA2535;
+   text-decoration: underline;
+}
