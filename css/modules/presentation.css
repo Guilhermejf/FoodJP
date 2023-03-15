@@ -5,11 +5,13 @@
 }
 
 .presentation img{
-    width: 286px;
+    width: 312;
     margin-left: 24px;
+    margin-right: 24px;
 }
 
 .presentation h3{
+    border: 3px solid red;
     width: 200px;
     margin: 0 auto;
     text-align: center;
@@ -17,6 +19,12 @@
     font-weight: 600;
     margin-top: 56px;
     margin-bottom: 24px;
+}
+
+.presentation-description{
+    width: 312;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .presentation p{
