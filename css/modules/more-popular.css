@@ -7,8 +7,27 @@
     background-color: #F3F3F3;
     border-radius: 8px;
     margin-bottom: 117px;
-
 }
+
+.card h2{
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 24px;
+    color: #292929;
+    font-weight: 500;
+}
+
+.card p{
+    text-align: center;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    font-size: 16.06px;
+}
+.card span{
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 32.1px;
+    font-weight: 400;
+}
+
 .more-popular{
     display: flex;
     flex-wrap: wrap;
