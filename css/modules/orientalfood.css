@@ -1,11 +1,25 @@
 .orientalfood{
-    margin-left: 24px;
-    margin-right: 24px;
+   
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+.food-head-container{
     display: flex;
     flex-direction: column;
-    
 }
+
+.food-head-container img{
+    width: 400px;
+    height: 534px;
+    display: none;
+}
+
 .orientalfood h1{
+    width: 280px;
     margin-bottom: 24px;
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
@@ -21,7 +35,7 @@
     margin-top: 26px;
     padding: 0;
     border: 0;
-    width: 312px;
+    width: 270px;
     height: 40px;
     background-color: #DA2535;
     border-radius: 6px;

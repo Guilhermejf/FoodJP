@@ -1,0 +1,41 @@
+@media (min-width:685px){
+    .food-head-container img{
+        width: auto;
+        height: 400px;
+        display: block;
+        
+    }
+    .food-head-container{
+        width: 100%;
+        max-width: 993px;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-around;        
+    }
+
+    .orientalfood{
+        width: auto;
+    }
+
+    .presentation{
+        width: 100%;
+        max-width: 993px;
+        justify-content: space-around;
+        margin: 0 auto;        
+    }
+
+    .presentation p{
+        text-align: left;
+    }
+
+    .presentation h3{
+        text-align: left;
+       margin-left: 0;
+    }
+
+    .presentation img{
+        width: 700px;
+
+    }
+
+}

@@ -2,11 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 312px;
+    max-width: 280px;
+    margin: 50px auto;
     height: 401px;
     background-color: #F3F3F3;
     border-radius: 8px;
-    margin-bottom: 117px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
 }
 
 .card h2{
@@ -29,9 +34,12 @@
 }
 
 .more-popular{
+    width: 100%;
+    max-width: 993px;
+    margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 24px;    
+    flex-wrap: wrap;    
+    justify-content: space-between;
 }
 
 .more-popular h3{

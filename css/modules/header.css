@@ -1,3 +1,7 @@
+header{
+    width: 100%;
+}
+
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -10,10 +14,13 @@ p{
     color: #DA2535;
 }
 .menu{
+    width: 100%;
+    max-width: 993px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 25px 24px 57px 24px;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 .burger{
