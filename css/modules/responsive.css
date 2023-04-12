@@ -37,7 +37,8 @@
         width: 100%;
         max-width: 993px;
         justify-content: space-between;
-        margin: 0 auto;        
+        margin: 0 auto;     
+        padding: 0;   
     }
 
     .presentation p{
