@@ -1,4 +1,20 @@
-@media (min-width:685px){
+@media (min-width:700px){
+    .food-head-container img{
+        width: auto;
+        height: 200px;
+        display: block;
+        
+    }
+
+    .food-head-container{
+        width: 100%;
+        max-width: 993px;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:993px){
     .food-head-container img{
         width: auto;
         height: 400px;
@@ -10,7 +26,7 @@
         max-width: 993px;
         margin: 0 auto;
         flex-direction: row;
-        justify-content: space-around;        
+        justify-content: space-between;        
     }
 
     .orientalfood{
@@ -20,7 +36,7 @@
     .presentation{
         width: 100%;
         max-width: 993px;
-        justify-content: space-around;
+        justify-content: space-between;
         margin: 0 auto;        
     }
 
@@ -28,14 +44,41 @@
         text-align: left;
     }
 
-    .presentation h3{
+    .presentation-description{
+        display: flex;
+        flex: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 450px;
+    }
+
+    .presentation-description h3{
+        margin: 0;
+        width: 361px;
+        height: 124px;
         text-align: left;
-       margin-left: 0;
+        font-size: 38px;
+    }
+
+    .presentation-description p{
+       width: 450px;
+        font-size: 20px;
+    }
+
+    .presentation-description a{
+        
+       justify-content: start;
+        
     }
 
     .presentation img{
-        width: 700px;
+        width: 100%;
+        max-width: 415px;
+        height: 450px;
+    }
 
+    .img-container{
+        padding: 0;
     }
 
 }
