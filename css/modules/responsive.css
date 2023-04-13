@@ -19,18 +19,27 @@
         width: auto;
         height: 400px;
         display: block;
+        margin-right: 30px;
         
     }
     .food-head-container{
         width: 100%;
+        padding: 30px;
         max-width: 993px;
         margin: 0 auto;
         flex-direction: row;
-        justify-content: space-between;        
+        justify-content: space-between;    
+            
     }
 
     .orientalfood{
         width: auto;
+        align-items: start;
+        padding: 0;
+    }
+
+    .orientalfood p{
+        width: 400px;
     }
 
     .presentation{
