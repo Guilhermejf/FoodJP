@@ -16,8 +16,8 @@
 
 @media (min-width:993px){
     .food-head-container img{
-        width: auto;
-        height: 400px;
+        width: 350px;
+        height: auto;
         display: block;
         margin-right: 30px;
         
